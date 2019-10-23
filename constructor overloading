@@ -1,0 +1,19 @@
+//program to show a constructor overloading
+package pack2;
+public class Student5 {
+int rollno,age;//instance variables
+String name;
+Student5(int r,String n){//two argument constructor
+	rollno=r;name=n;
+}
+Student5(int r,int a,String n){//three arguments constructor overloading
+rollno=r;name=n;age=a;
+}
+void display() {
+System.out.println(rollno+" "+name+" "+age);
+}
+public static void main(String [] args) {
+Student5 s=new Student5(111,"karan");
+Student5 s1=new Student5(222,30,"Ankit");
+	s.display();s1.display();}
+}
