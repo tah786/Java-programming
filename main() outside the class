@@ -1,0 +1,15 @@
+//program to write main() outside the class
+package pack2;
+
+class Student1 {
+int roll_no=101;
+String name="Saniya";
+}
+public class Student{ //Another main class
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Student1 s=new Student1();
+System.out.println(s.roll_no+ " "+s.name);
+	}
+
+}
