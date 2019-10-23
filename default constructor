@@ -1,0 +1,19 @@
+//program to create default constructor
+package pack2;
+
+public class Employee2{
+int id;
+String name;
+ Employee2()//default constructor
+{	
+	 System.out.println("creating default constructor");
+}
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Employee2 e=new Employee2();
+e.id=101;
+e.name="John";
+System.out.println(e.id+" "+e.name);
+	}
+
+}
