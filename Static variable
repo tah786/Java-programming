@@ -1,0 +1,21 @@
+//program using Static variable
+package pack2;
+ class Demo1 {
+int rollno;//instance variable
+String name;
+static String college="ITS";//Static variable
+Demo1(int r,String n){//parameterized constructor
+	rollno=r;
+	name=n;
+}
+void display() {
+	System.out.println(rollno+ " " +name+ "  "+college);
+}}
+public class Student1{
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Demo1 s1=new Demo1(11,"Heena"),s2=new Demo1(222,"sabha");
+s1.display();
+s2.display();
+}
+}
