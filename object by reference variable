@@ -1,0 +1,18 @@
+//program to initialize the object by reference variable
+package pack2;
+ class BankDemo {
+int acc_no;
+String acc_name,name;
+}
+class Bank{
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+BankDemo b=new BankDemo();
+b.acc_no=1015678935;
+b.acc_name="Savings Account";
+b.name="Tahsin Taj";
+System.out.println(b.acc_no+" "+b.acc_name+ " "+b.name);
+
+	}
+
+}
