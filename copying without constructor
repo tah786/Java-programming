@@ -1,0 +1,25 @@
+//program copying values without constructor
+package pack2;
+public class Student2 {
+int rollno;
+String name;
+Student2(int r,String n){//parameterized constructor
+	rollno=r;
+	name=n;
+}
+Student2(){}//default constructor
+void display() {
+	System.out.println(rollno+ " "+ name);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Student2 s1=new Student2(111,"kajol");
+Student2 s2=new Student2();
+s2.rollno=s1.rollno;
+s2.name=s1.name;
+s1.display();
+s2.display();
+	
+	}
+
+}
