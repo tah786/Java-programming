@@ -1,0 +1,23 @@
+//program to create parameterized constructor
+package pack2;
+
+public class Employee3 {
+int id;
+String name;
+Employee3(int i,String n){
+id=i;
+name=n;
+}
+void display() {
+	System.out.println(id+ " " +name);
+}
+
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Employee3 e=new Employee3(101,"JOHN");
+Employee3 e1=new Employee3(102,"KARAN");
+e.display();
+e1.display();
+	}
+
+}
