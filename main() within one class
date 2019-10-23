@@ -1,0 +1,16 @@
+//program to create object for the Employee main() within a class 
+package pack2;
+
+public class Employee1 {
+int id;
+String name;
+void display() {
+	System.out.println("welcome to Java class");
+}
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Employee1 e=new Employee1();
+e.display();
+	}
+
+}
