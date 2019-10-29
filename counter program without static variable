@@ -1,7 +1,8 @@
 //PROGRAM of the counter without using static variable.
 package pack2;
 class counts{
-	int count=0;
+// instance variable gets the memory at the time of object creation, each object will have the copy of the instance variable
+int count=0;
 counts(){
 	count++;
 	System.out.println(count);
@@ -11,6 +12,9 @@ counts(){
 public class Counter {
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
+/*An object which has no reference is known as an anonymous object.
+It can be used at the time of object creation only.
+If you have to use an object only once*/
 new counts();
 new counts();
 counts c1=new counts();
