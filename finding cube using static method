@@ -1,0 +1,20 @@
+//Java Program to get the cube of a given number using the static method
+package pack2;
+ 
+public class Calculation {
+static int cube(int c) {
+	return c*c*c;
+}
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int result=Calculation.cube(5);
+System.out.println(result);
+	}
+
+}
+
+
+
+
+
+output:125
