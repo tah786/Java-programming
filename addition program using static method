@@ -1,0 +1,16 @@
+//program to demonstrate the use of static method
+package pack2;
+class Add{
+static int add(int a,int b){//passing arguments
+return a+b;
+}}
+public class StaticMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int result=Add.add(20,30);//passing values
+System.out.println(result);
+	}
+
+}
+
