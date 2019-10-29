@@ -1,0 +1,17 @@
+package pack2;
+class counts{
+	int count=0;
+counts(){
+	count++;
+	System.out.println(count);
+}
+
+}
+public class Counter {
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new counts();
+new counts();
+counts c1=new counts();
+
+	}}
