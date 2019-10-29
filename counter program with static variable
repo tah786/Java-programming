@@ -1,7 +1,7 @@
-//program of the counter with static variable.
+//program of the counter with static variable which is shared with all objects.  
 package pack2;
 class count2{
-	static int count=0;
+	static int count=0;//will get memory only once and retain its value. 
 count2(){
 	count++;
 	System.out.println(count);
