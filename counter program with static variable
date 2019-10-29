@@ -1,0 +1,19 @@
+//program of the counter with static variable.
+package pack2;
+class count2{
+	static int count=0;
+count2(){
+	count++;
+	System.out.println(count);
+}
+}
+public class Counter2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+count2 c=new count2();
+count2 c1=new count2();
+count2 c2=new count2();
+	}
+
+}
