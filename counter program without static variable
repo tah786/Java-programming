@@ -1,3 +1,4 @@
+//PROGRAM of the counter without using static variable.
 package pack2;
 class counts{
 	int count=0;
