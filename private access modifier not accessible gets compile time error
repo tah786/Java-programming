@@ -1,4 +1,7 @@
-//program to show the usage of private access modifier where we gets a compile time error because private modifier is accessible only within the class
+/*program to show the usage of private access modifier where we gets a compile time error
+because private modifier is accessible only within the class
+private constructor cannot create the instance of that class from outside of the class.*/
+
 class A{  
 private int data=40;  
 private void msg(){System.out.println("Hello java");}  
