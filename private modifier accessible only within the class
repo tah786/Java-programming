@@ -1,0 +1,23 @@
+//program to show the usage of private modifier which is accessible only within the class.
+package pack2;
+class PrivateModifier{
+	private int data=30;
+	private void msg() {
+		System.out.println(data);
+		System.out.println("hello");
+	}
+	
+
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	PrivateModifier a=new PrivateModifier ();
+	a.msg();
+
+	}
+
+}
+
+
+output:30
+        hello
