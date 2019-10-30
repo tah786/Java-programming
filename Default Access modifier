@@ -1,0 +1,16 @@
+/*program to show the usage of Default access modifier which can access only within the package and within the class
+ *  if we do not specify any access level it is default specifier by default.
+ *  it is not accessible outside the package*/
+
+package pack2;
+
+ public class DefaultModifier {
+
+	public static void main(String[] args) {
+		
+new Calculation();//object creation
+
+System.out.println(Calculation.cube(7));//accessible from different program and class and within the package and method calling
+	}
+
+}
