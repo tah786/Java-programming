@@ -1,0 +1,21 @@
+//program to show the immutable objects which is unmodifiable
+package pack2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="Sachin";
+
+s.concat("Saurav");//concat() method appends the string at the end 
+System.out.println(s);//will print Sachin because strings are immutable objects
+	}
+
+}
+
+
+
+
+
+output:
+        Sachin
