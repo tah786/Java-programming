@@ -1,9 +1,9 @@
-//program to show the usage of this keyword in java where
+//program to show the usage of this: to refer current class instance variable where
 //parameters (formal arguments) and instance variables are same.
 package pack2;
 class Student0{  
 int rollno;  
-String name;  
+String name;//instance variable  
 float fee;  
 Student0(int rollno,String name,float fee){  
 this.rollno=rollno;//parameters (formal arguments) and instance variables are same,
