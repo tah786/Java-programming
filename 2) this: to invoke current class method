@@ -1,0 +1,21 @@
+// this: to invoke current class method
+package pack2;
+
+public class A {
+void m() {
+	System.out.println("hello i'm mr.M");
+}
+void n() {
+	System.out.println("hello i'm mr.N");
+	this.m();//m(); same as this.m() compiler automatically adds this keyword 
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new A().n();//new A().m();
+	}
+
+}
+
+output:
+hello i'm mr.N
+hello i'm mr.M
